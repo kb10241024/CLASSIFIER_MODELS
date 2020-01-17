@@ -3,6 +3,7 @@ All notebooks uses Tensorflow
 There are total of Four Notebooks in these folder.
 
 ## [Cat_vs_Dog_Classifier_with_Full_Dataset](https://github.com/kb10241024/CLASSIFIER_MODELS/blob/master/Cats-Vs-Dogs/Cat_vs_Dog_Classifier_with_Full_Dataset.ipynb)
+<pre>
 Download Full Cats-Vs-Dogs dataset and extract into /tmp folder
 Make list-diectory from it for req. dataset
 Build model(using convolutions, MaxPooling and Dense layers)
@@ -10,7 +11,7 @@ Data-Preprocessing - (Creating Dataset and labelling from the folder and rescali
 Training for 15 epochs which shows 99% training-accuracy and 99% validation-accuracy
 Plotting the loss and accuracy graphs
 Uploading Images to test model.
-
+</pre>
 
 ## [CatvsDog_FullDataset_DataAugmentation](https://github.com/kb10241024/CLASSIFIER_MODELS/blob/master/Cats-Vs-Dogs/CatvsDog_FullDataset_DataAugmentation.ipynb)
 Download Full Cats-Vs-Dogs dataset and extract into /tmp folder
