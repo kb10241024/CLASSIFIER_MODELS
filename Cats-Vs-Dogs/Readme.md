@@ -14,6 +14,7 @@ Uploading Images to test model.
 </pre>
 
 ## [CatvsDog_FullDataset_DataAugmentation](https://github.com/kb10241024/CLASSIFIER_MODELS/blob/master/Cats-Vs-Dogs/CatvsDog_FullDataset_DataAugmentation.ipynb)
+<pre>
 Download Full Cats-Vs-Dogs dataset and extract into /tmp folder
 Make list-diectories from it and split them into Training and validation directories for required dataset
 Build model(using convolutions, MaxPooling and Dense layers)
@@ -21,12 +22,13 @@ Data-Preprocessing - (With Data-Augmentation(using ImageDataGenerator))
 Training for 15 epochs which shows 80+% training-accuracy and 80+% validation-accuracy
 Plotting the loss and accuracy graphs
 Uploading Images to test model.
+</pre>
 
 ## [CatvsDog_with_Explanation](https://github.com/kb10241024/CLASSIFIER_MODELS/blob/master/Cats-Vs-Dogs/CatvsDog_with_Explanation.ipynb)
 
 ## [Transfer_Learning_InceptionV3](https://github.com/kb10241024/CLASSIFIER_MODELS/blob/master/Cats-Vs-Dogs/Transfer_Learning_InceptionV3.ipynb)
-
 Loaded weights of pre-trained InceptionV3 Model from [tensorflow.keras.applications.inception_v3](https://www.tensorflow.org/api_docs/python/tf/keras/applications/inception_v3).
+<pre>
 __________________________________________________________________________________________________
 Layer (type)                    Output Shape         Param #     Connected to                     
 ==================================================================================================
@@ -693,13 +695,16 @@ Non-trainable params: 21,802,784
 __________________________________________________________________________________________________
 last layer output shape:  (None, 7, 7, 768)
 ==================================================================================================
+</pre>
 
+<pre>
 Build the model with first layers non-trainable
 Download the smaller cat-vs-dog dataset for last layers training.
 Make list-diectory from it for req. dataset
 Data-Preprocessing - (With Data-Augmentation(using ImageDataGenerator))
 Training for 20 epochs which shows 90% training-accuracy and 86% validation-accuracy
 Plotting the loss and accuracy graphs
+</pre>
 
 Resource : Tenorflow.ai ,Course by Tensorflow.
 
