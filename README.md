@@ -1,2 +1,16 @@
 # CLASSIFIER_MODELS
-Some Cool classifier deep neural networks implemented in Tensorflow
+Various Image Classifier models.
+
+## Binary Classifiers 
+
+### Cats-vs-Dogs
+
+### Happy-or-Sad Emogi Classifiers
+
+### Horse-vs-Humans
+
+## MultiClass Classifiers
+
+### MNIST-Digit-Recognition and Fashion-MNIST
+
+### Rock-Paper-Scissor
