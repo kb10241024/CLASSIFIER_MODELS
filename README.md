@@ -1,6 +1,5 @@
-# Text Classifiers
-This is a beginner friendly repo for those who want to use DL techniques in Natural Language Processing for text classification.</br>
-It uses **Tensorflow 2.0** framework for implementing deep learning models, with handy datasets.</br>
+# Image Classifiers
+This is a beginner friendly repo for those who want to use DL techniques in Computer Vision, which uses **Tensorflow 2.0** framework for implementing deep learning models, with handy datasets.</br>
 
 ## Getting Started
 
@@ -13,18 +12,22 @@ Only thing required is python, rest other things will be handled while explorati
 ## What's in there?
 
 There are Various Classifier notebooks for different use-cases.</br>
-- [IMDB-movie-review](https://github.com/kb10241024/Text_Classifiers/tree/master/IMDB)
-- [Sarcasm-Detection](https://github.com/kb10241024/Text_Classifiers/tree/master/Sarcasm)
-- [BBC](https://github.com/kb10241024/Text_Classifiers/blob/master/MultiClass/BBC/BBC_text_multiclass_classification.ipynb) (Text Classification into five topics{sport': 1, 'business': 2, 'politics': 3, 'tech': 4, 'entertainment': 5}, using BBC text-corpora).
+
+- [Convloution Sidebar](https://github.com/kb10241024/CLASSIFIER_MODELS/blob/master/Convolutions_Sidebar.ipynb)(A walkthrough the process of convolution and filters, how it works!) 
+- [Cats-vs-Dogs](https://github.com/kb10241024/CLASSIFIER_MODELS/tree/master/Cats-Vs-Dogs) (Most basic one for getting started used widely)
+- [Horse-vs-Human](https://github.com/kb10241024/CLASSIFIER_MODELS/tree/master/Horse-or-Human) (Trained on animated images from tensorflow, but works quite good for real time dataset too)
+- [Happy-or-Sad](https://github.com/kb10241024/CLASSIFIER_MODELS/tree/master/Happy-or-sad) (Classifier for different imogis trained on a dataset of few hundred images)	
+- [Fashion-MNIST and MNIST-Digit-Recognition](https://github.com/kb10241024/CLASSIFIER_MODELS/tree/master/000Multiclass_Classification/MNIST-and-Fashion_MNIST)	
+- [Rock-Paper-Scissor](https://github.com/kb10241024/CLASSIFIER_MODELS/tree/master/000Multiclass_Classification/Rock-Paper-Scissor)(Fun example for recognising hand gesture in rock-paper-scissor game).
 
 ## What you'll Learn?
 
 * **Analyzing Image datasets**
 * **Data Augmentaion** techniques
-* Convolution Neural networks, CNNs and Poling layers.
+* Convolution Neural networks, *CNNs* and Poling layers, and also about filters/kernels.
 * **Analyzing** accuracy and loss.
 * **Transfer learning** (Pretrained weights of InceptionNet Model trained)
-<div style="height:1200px;border:1px solid #ccc;font:12px/26px Georgia, Garamond, Serif;overflow:auto;" height="1200px">
+<div style="height:1200px;border:1px solid #ccc;font:12px/26px Georgia, Garamond, Serif;overflow:auto;">
 <pre>Model: "inception_v3"
 __________________________________________________________________________________________________
 Layer (type)                    Output Shape         Param #     Connected to                     
@@ -694,7 +697,7 @@ last layer output shape:  (None, 7, 7, 768)</pre></div>
 
 ## Contributing
 
-This are very beginner friendly, so if you've any suggestion or edits, or you wanna add your ones. Just do PR :)
+These are very beginner friendly, so if you've any suggestion or edits, or you wanna add your ones. Just do PR :)
 
 ## Acknowledgments
 
