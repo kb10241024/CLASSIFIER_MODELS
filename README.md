@@ -1,9 +1,9 @@
 # Image Classifiers
-This is a beginner friendly repo for those who want to use DL techniques in Computer Vision, which uses Tensorflow 2.0 framework for implementing deep learning models, with handy datasets.</br>
+This is a beginner friendly repo for those who want to use DL techniques in Computer Vision, which uses **Tensorflow 2.0** framework for implementing deep learning models, with handy datasets.</br>
 
 ## Getting Started
 
-You just need google account for the whole process.Just open the notebooks using [google colab](https://colab.research.google.com/) an awesome initiative from **GOOGLE**.
+You only need google account for the whole process to get started.Just open the notebooks using [colab](https://colab.research.google.com/), an awesome initiative from **GOOGLE**.
 
 ### Prerequisites
 
