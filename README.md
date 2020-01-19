@@ -24,7 +24,7 @@ There are Various Classifier notebooks for different use-cases.</br>
 * Convolution Neural networks, CNNs and Poling layers.
 * **Analyzing** accuracy and loss.
 * **Transfer learning** (Pretrained weights of InceptionNet Model trained)
-<div style="height:1200px;border:1px solid #ccc;font:12px/26px Georgia, Garamond, Serif;overflow:auto;">
+<div style="height:1200px;border:1px solid #ccc;font:12px/26px Georgia, Garamond, Serif;overflow:auto;" height="1200px">
 <pre>Model: "inception_v3"
 __________________________________________________________________________________________________
 Layer (type)                    Output Shape         Param #     Connected to                     
